@@ -10,9 +10,6 @@
     "autoload": {
         "psr-4": {
             "Cityware\\Log\\": "src/"
-        },
-        "psr-0": {
-            "Cityware\\Log\\": "src/"
         }
     },
     "require": {
