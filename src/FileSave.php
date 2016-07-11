@@ -26,14 +26,14 @@ class FileSave {
             $logger->info($routeMatch->getParams());
         }
         
-        if ($event->getParam('response')->getStatusCode() != 404) {
+        //if ($event->getParam('response')->getStatusCode() != 404) {
             //$logger->info($e->getRequest());
             $logger->err($exception->getFile());
             $logger->err($exception->getLine());
             $logger->err($exception->getCode());
             $logger->err($exception->getMessage());
             $logger->err($exception->getTraceAsString());
-        }
+        //}
         $logger->debug("\n--------------------- FINAL DO LOG ----------------------\n\n\n\n");
     }
 
